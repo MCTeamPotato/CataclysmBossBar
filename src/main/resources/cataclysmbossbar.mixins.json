@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.teampotato.cataclysmbossbar.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "cataclysmbossbar.refmap.json",
+  "client": [
+    "MixinBossOverlayGui"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="cataclysmbossbar"
+version="${file.jarVersion}"
+displayName="Cataclysm Boss Bar"
+authors="Team Potato"
+description='''
+
+'''
