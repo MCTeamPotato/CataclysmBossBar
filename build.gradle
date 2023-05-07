@@ -16,11 +16,11 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.16.5-1.0.0'
+version = '1.16.5-1.0.1'
 group = 'com.teampotato.cataclysmbossbar'
 archivesBaseName = 'cataclysmbossbar'
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
 minecraft {
     mappings channel: 'parchment', version: '2021.10.17-1.16.5'

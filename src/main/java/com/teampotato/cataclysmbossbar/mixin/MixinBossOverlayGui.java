@@ -19,7 +19,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.UUID;
 
-@Mixin(BossOverlayGui.class)
+@Mixin(value = BossOverlayGui.class, priority = 10)
 public abstract class MixinBossOverlayGui {
     @Shadow @Final private Map<UUID, ClientBossInfo> events;
     @Shadow @Final private Minecraft minecraft;
